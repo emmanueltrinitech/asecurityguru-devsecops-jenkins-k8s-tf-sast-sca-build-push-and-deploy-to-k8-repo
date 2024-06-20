@@ -37,6 +37,9 @@ pipeline {
                 }
             }
     	}
+	    
+  }
+}
 	   
 	stage('Kubernetes Deployment of TRINI Bugg Web Application') {
 	   steps {
